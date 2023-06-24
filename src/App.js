@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Uno } from "./components/Uno";
 import { Dos } from "./components/Dos";
+import { Tres } from "./components/Tres";
 
 function App() {
   const datos = {
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Uno datos={datos} hijo={hijo} />
       <Dos />
+      <Tres />
     </div>
   );
 }

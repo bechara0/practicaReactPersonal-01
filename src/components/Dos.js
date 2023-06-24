@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 export const Dos = () => {
   const [datos, setDatos] = useState({
-    nombre: "",
-    apellido: "",
-    profesion: "",
-    edad: 0,
+    // nombre: "",
+    // apellido: "",
+    // profesion: "",
+    // edad: 0,
   });
   const tomarDatos = (e) => {
     e.preventDefault();
